@@ -42,7 +42,7 @@ public class FileEvent implements Serializable {
 	}
 
 	public void setFileSize(long fileSize) {
-		this.fileSize = fileSizes;
+		this.fileSize = fileSize;
 	}
 
 	public String getStatus() {
