@@ -28,7 +28,7 @@ public class Netcpy {
 				createAndWriteFile(); // writing the file to hard disk
 				InetAddress IPAddress = incomingPacket.getAddress();
 				int port = incomingPacket.getPort();
-				String reply = "Thank you!";
+				String reply = "Thanks!";
 				byte[] replyBytea = reply.getBytes();
 				DatagramPacket replyPacket = new DatagramPacket(replyBytea, replyBytea.length, IPAddress, port);
 				socket.send(replyPacket);
